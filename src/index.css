@@ -15,3 +15,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Typewriter__wrapper {
+  font-size: 3.0em !important;
+  color: #1b5583 !important;
+  font-weight: 600 !important;
+}
+
+.Typewriter__cursor {
+  font-size: 3.2em !important;
+  color: #1b5583 !important;
+}
+
+.nav_text {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 2px;
+  }
+
+  .nav_text::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 4px; /* Adjust the thickness of the line as needed */
+    border-radius: 2px;
+    background-color: #1b5583; /* Adjust the color of the line as needed */
+    transition: width 0.3s ease-in-out; /* Transition for width with ease-in-out timing */
+  }
+
+  .nav_text:hover::after {
+    width: 100%;
+  }
+
+@layer components {
+  .center {
+    @apply flex justify-center;
+  }
+
+  .container {
+    @apply max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-10
+  }
+
+  .icon {
+    @apply h-8 w-8 hover:text-blue-800
+  }
+
+  .h1 {
+    @apply text-4xl font-semibold
+  }
+
+  .card_trans {
+    @apply transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 hover:shadow-lg hover:shadow-blue-300
+  }
+
+  .nav_text {
+    @apply font-medium text-lg text-slate-200
+  }
+}
