@@ -24,7 +24,7 @@ function Resume() {
           <Page renderTextLayer={false}
             renderAnnotationLayer={false}
             customTextRenderer={false} 
-            pageNumber={1} scale={width > 786 ? 1.7 : 0.6}/><Page  renderTextLayer={false}/>
+            pageNumber={1} scale={width > 786 ? 1.7 : 0.6}/>
         </Document>
     
     </div>
