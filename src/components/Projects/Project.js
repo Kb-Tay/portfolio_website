@@ -16,8 +16,8 @@ function Project() {
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-10">
           <ProjectCard
             imgPath = {MoneyManager}
-            imgName = "Money manager"
-            title = "Money manager App"
+            imgName = "Money Manager"
+            title = "Money Manager App"
             content = "Fullstack application I made for an internal competition in school."
             hasDemo = {true}
             gitLink = "https://github.com/Kb-Tay/money_manager"
