@@ -21,13 +21,10 @@ function Resume() {
   return (
     <div className='flex justify-center'>
         <Document file={pdf}>
-          <Page  renderTextLayer={false}
+          <Page renderTextLayer={false}
             renderAnnotationLayer={false}
             customTextRenderer={false} 
-            pageNumber={1} scale={width > 786 ? 1.7 : 0.6}/><Page  renderTextLayer={false}
-            renderAnnotationLayer={false}
-            customTextRenderer={false} 
-            pageNumber={2} scale={width > 786 ? 1.7 : 0.6}/>
+            pageNumber={1} scale={width > 786 ? 1.7 : 0.6}/><Page  renderTextLayer={false}/>
         </Document>
     
     </div>
