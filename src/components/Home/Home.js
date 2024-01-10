@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Type from './Type'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -19,9 +20,9 @@ function Home() {
 
               </div>
               <div class="flex justify-start pt-4">
-                <button type="button" class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold border border-gray-400 text-gray-500 hover:border-blue-600 hover:text-blue-600 disabled:opacity-50 disabled:pointer-events-none dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500 dark:hover:border-blue-600 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
-                  Resume
-                </button>
+                <Link class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold border border-gray-400 text-gray-500 hover:border-blue-600 hover:text-blue-600" to={`resume`}>
+                    Resume
+                </Link>
               </div>
             </div>
             <div class="flex justify-center pl-10">
