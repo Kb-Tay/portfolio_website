@@ -4,7 +4,7 @@ import Type from './Type'
 
 function Home() {
   return (
-    <div class="relative overflow-hidden max-h-screen">
+    <div class="relative overflow-hidden max-h-screen" id="home">
       <div class="container">
         <div class="grid grid-cols-2">
 

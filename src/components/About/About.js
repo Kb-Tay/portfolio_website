@@ -6,8 +6,7 @@ import { Element } from 'react-scroll'
 
 function About() {
   return (
-    <div>
-      <Element name="aboutme" class="element pb-12" />
+    <Element name="aboutme" class="element pb-12">
       <div class="container mx-auto flex flex-col pt-10">
         
         <div class="grid grid-cols-3 pt-10">
@@ -20,10 +19,9 @@ function About() {
           <div class="col-span-1">
             <Profile/>
           </div>
-        </div>
-            
+        </div>   
       </div>
-    </div>
+    </Element>
   )
 }
 
