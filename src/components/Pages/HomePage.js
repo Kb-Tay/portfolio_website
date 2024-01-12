@@ -2,6 +2,7 @@ import React from 'react'
 import Home from '../Home/Home'
 import About from '../About/About'
 import Project from '../Projects/Project'
+import Skill from '../Skills/Skill'
 
 
 
@@ -11,6 +12,7 @@ function HomePage() {
       <Home/>
       <About/>
       <Project/>
+      <Skill/>
     </div>
   )
 }

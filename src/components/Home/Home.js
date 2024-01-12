@@ -11,7 +11,7 @@ function Home() {
 
             <div class="flex flex-col py-2 mt-5 max-w-xl text-left">
               <h1 class="block font-bold mt-10 text-gray-800 text-2xl md:text-3xl lg:text-4xl dark:text-gray-200">
-                Hello I'm a
+                I am interested in 
               </h1>
               <Type/>
               <p class="pt-14 text-lg text-gray-600">My name is Aaron Tay and I am an undergraduate at NUS studying Computer Science. 
