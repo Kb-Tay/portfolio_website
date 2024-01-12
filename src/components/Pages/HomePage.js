@@ -12,7 +12,6 @@ function HomePage() {
       <Home/>
       <About/>
       <Project/>
-      <Skill/>
     </div>
   )
 }
