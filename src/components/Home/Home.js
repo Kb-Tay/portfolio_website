@@ -14,7 +14,7 @@ function Home() {
                 I am interested in 
               </h1>
               <Type/>
-              <p class="pt-14 text-lg text-gray-600">My name is Aaron Tay and I am an undergraduate at NUS studying Computer Science. 
+              <p class="pt-14 text-lg text-gray-600">My name is Aaron Tay and I am a year 2 undergraduate at NUS studying Computer Science. 
               I enjoy learning about technology and building software projects in my free time</p>
               <div>
 
